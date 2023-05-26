@@ -38,6 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'base.apps.BaseConfig',
+    'base.models.Room',
+    'base.models.Main',
+    'base.models.Question',
+    'base.models.Answer',
+    'base.models.User',
 ]
 
 MIDDLEWARE = [
